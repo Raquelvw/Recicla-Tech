@@ -1,5 +1,255 @@
 * {
-  margin: 0;
-  padding: 0;
+  padding: 0%;
+  margin: 0%;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+header {
+  height: 14vh;
+  background-color: #eef5f1;
+}
+
+header nav {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+header button {
+  display: flex;
+  background-color: #21c05c;
+  border: none;
+  padding: 15px;
+  color: #ffffff;
+}
+
+li {
+  display: inline;
+  margin-left: 1em;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  color: #ffffff;
+  align-items: center;
+  list-style: none;
+  width: 35vw;
+  margin-top: 5vh;
+}
+
+a {
+  color: #1f2937;
+}
+
+header figure {
+  padding: 18px;
+}
+
+.recicle {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -300px;
+}
+
+.primrecicle h1 {
+  font-size: 70px;
+  width: 70vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 25vh;
+  padding-top: 90px;
+  margin-left: 9vh;
+}
+
+.primrecicle p {
+  font-size: 20px;
+  width: 70vw;
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+  height: 25vh;
+  padding-top: 90px;
+  margin-left: 9vh;
+}
+
+.btndaprimeira {
+  margin-left: 5vw;
+  justify-content: space-between;
+  margin-top: -195px;
+}
+
+.botao2 {
+  background-color: #16a34a;
+  border: none;
+  padding: 15px;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.botao3 {
+  background-color: #f0fdf4;
+  border: none;
+  color: #2563eb;
+  padding: 15px;
+  text-align: center;
+  margin-left: 5vw;
+  border-radius: 8px;
+}
+
+.primsessao {
+  background-image: url("./assets/fundo1.jpg");
+  background-size: 100% 100%;
+  background-position: center;
+  height: 100vh;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.segdenumeros {
+  background-color: #f3f5f8;
+  height: 25vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.segdenumeros div {
+  text-align: center;
+}
+
+.segdenumeros div h2 {
+  font-size: 45px;
+  color: #16a34a;
+}
+
+.tercsessao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 1rem;
+  height: 100vh;
+  background-color: #a0e8b0;
+}
+
+.tercsessao h2 {
+  color: #1f2937;
+}
+
+.tercsessao .adquirir h3 {
+  color: #1f2937;
+}
+
+.retangulo {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 2rem;
+  padding: 1rem 0;
+}
+
+.tercsessao article {
+  background-color: #f3f5f8;
+  border-radius: 10px;
+  width: 30%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem;
+}
+
+.reciclemensagem {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.reciclemensagem img {
+  width: 50px;
+  height: 50px;
+}
+
+.reciclemensagem div {
+  width: 400px;
+}
+
+.reciclemensagem h2 {
+  width: 100vw;
+  color: #16a34a;
+}
+
+.tercsessao .retangulo article .reciclemensagem h2.par {
+  color: #2563eb;
+}
+
+.quartsessao {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: #f3f5f8;
+  height: 120vh;
+}
+
+.equipamentech article {
+  border-radius: 20px;
+  border: solid #16a34a;
+  justify-content: space-between;
+  align-items: center;
+  display: inline-block;
+  margin-right: 53px;
+  margin-bottom: 53px;
+  text-align: center;
+}
+
+.quartsessao .quartsessao p {
+  font-size: 20px;
+  color: #1F2937;
+}
+
+.quartsessao img {
+  max-width: 300px;
+  width: 30vw;
+  height: 45vh;
+  border-radius: 20px;
+}
+
+.quartsessao h2 {
+  font-size: 20px;
+}
+
+.equipamentech article button {
+  background-color: #16a34a;
+  border: solid;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.produto {
+  color: #1F2937;
+  width: 70vw;
+  display: flex;
+  height: 25vh;
+  padding-top: 90px;
+  font-size: 40px;
+}
+
+.categorias {
+  color: #1F2937;
+  width: 70vw;
+  display: flex;
+  height: 25vh;
+  font-size: 20px;
 }/*# sourceMappingURL=style.css.map */
